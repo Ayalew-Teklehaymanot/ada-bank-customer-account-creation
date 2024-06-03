@@ -1,0 +1,6 @@
+email:
+  config:
+    port: "587"
+    host: "smtp.gmail.com"
+    user: "ayal.aboze@gmail.com"
+    password: "wbxpbpkwopomnner"
