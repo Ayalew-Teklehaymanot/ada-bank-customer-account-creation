@@ -189,6 +189,7 @@ output application/json
 				</ee:transform>
 			</when>
 			<otherwise >
+				<logger level="INFO" doc:name="Logger" doc:id="ab8c9005-1d60-4496-a2ff-49b3f4fa9b37" message="-------Before Insertion-------"/>
 				<db:insert doc:name="Insert" doc:id="1d99d2a8-1f6d-462b-91a6-2af251e65bfa" config-ref="Database_Config">
 					<db:sql ><![CDATA[insert into branch(custName,custAccNum,atmPin,bankName,accountType,ifscCode,branchName,transactiontimeStamp,mailId,phoneNumber)
 
